@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name "Type-C")(type "Legacy")(uri "${KIPRJMOD}/submodules/Type-C.pretty/Type-C.lib")(options "")(descr ""))
+  (lib (name "marbastlib-choc")(type "KiCad")(uri "${KIPRJMOD}/submodules/marbastlib/marbastlib-choc.kicad_sym")(options "")(descr ""))
+  (lib (name "marbastlib-mx")(type "KiCad")(uri "${KIPRJMOD}/submodules/marbastlib/marbastlib-mx.kicad_sym")(options "")(descr ""))
+  (lib (name "marbastlib-various")(type "KiCad")(uri "${KIPRJMOD}/submodules/marbastlib/marbastlib-various.kicad_sym")(options "")(descr ""))
+  (lib (name "Athena54")(type "KiCad")(uri "${KIPRJMOD}/submodules/Athena54.kicad_sym")(options "")(descr ""))
+)

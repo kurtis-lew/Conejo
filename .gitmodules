@@ -1,0 +1,6 @@
+[submodule "submodules/Type-C.pretty"]
+	path = submodules/Type-C.pretty
+	url = https://github.com/ai03-2725/Type-C.pretty
+[submodule "submodules/marbastlib"]
+	path = submodules/marbastlib
+	url = https://github.com/ebastler/marbastlib
