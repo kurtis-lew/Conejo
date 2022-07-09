@@ -4,3 +4,4 @@
 [submodule "submodules/marbastlib"]
 	path = submodules/marbastlib
 	url = https://github.com/ebastler/marbastlib
+	branch = untested
