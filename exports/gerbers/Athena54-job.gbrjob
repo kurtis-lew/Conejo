@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(6.0.4)"
     },
-    "CreationDate": "2022-07-04T12:48:59-07:00"
+    "CreationDate": "2022-07-09T12:54:08-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,21 +14,23 @@
       "Revision": "v1.0.0"
     },
     "Size": {
-      "X": 137.55,
-      "Y": 108.1128
+      "X": 130.45,
+      "Y": 112.8659
     },
     "LayerNumber": 4,
-    "BoardThickness": 1.59,
+    "BoardThickness": 1.5461,
     "Finish": "None",
     "ImpedanceControlled": true
   },
   "DesignRules": [
     {
       "Layers": "Outer",
-      "PadToPad": 0.0,
-      "PadToTrack": 0.0,
+      "PadToPad": 0.1,
+      "PadToTrack": 0.1,
       "TrackToTrack": 0.127,
-      "MinLineWidth": 0.2
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     },
     {
       "Layers": "Inner",
@@ -117,7 +119,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.2,
+      "Thickness": 0.1803,
       "Material": "JLC7628",
       "DielectricConstant": "4.6",
       "LossTangent": "0.02",
@@ -126,28 +128,28 @@
     },
     {
       "Type": "Copper",
-      "Thickness": 0.0175,
+      "Thickness": 0.0152,
       "Name": "In1.Cu"
     },
     {
       "Type": "Dielectric",
       "Thickness": 1.065,
       "Material": "FR4",
-      "DielectricConstant": "4.6",
+      "DielectricConstant": "4.5",
       "LossTangent": "0.02",
       "Name": "In1.Cu/In2.Cu",
       "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
     },
     {
       "Type": "Copper",
-      "Thickness": 0.0175,
+      "Thickness": 0.0152,
       "Name": "In2.Cu"
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.2,
-      "Material": "JLC7628",
-      "DielectricConstant": "4.6",
+      "Thickness": 0.1803,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
       "LossTangent": "0.02",
       "Name": "In2.Cu/B.Cu",
       "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"

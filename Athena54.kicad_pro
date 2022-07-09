@@ -33,8 +33,8 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.6,
-          "height": 0.8,
+          "drill": 0.0,
+          "height": 0.65,
           "width": 1.0
         },
         "silk_line_width": 0.15,
@@ -45,7 +45,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.127
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -55,19 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "silk_over_copper|111175000|-7275000|3d039ca5-e8ef-40ce-832e-e7b04a4f585a|1130532a-c5a9-4332-91f0-27b06b432aa0",
-        "silk_over_copper|123175000|-7275000|3d039ca5-e8ef-40ce-832e-e7b04a4f585a|0d764816-6fc8-4a28-bff1-4d6f6542ab80",
-        "silk_over_copper|123725000|-7275760|3d039ca5-e8ef-40ce-832e-e7b04a4f585a|c189c694-f257-4232-9872-0a7b01e49b2e",
-        "silk_over_copper|127875000|40675000|f4a04a08-2f21-4da3-a4e7-b2c79a78ccc2|9a32f00d-50d4-4b81-968e-d9ea8125dd2f",
-        "silk_over_copper|127875000|41975000|f4a04a08-2f21-4da3-a4e7-b2c79a78ccc2|affaa4de-de60-4370-a021-f34d77e3d2f5",
-        "silk_over_copper|127875000|42175000|f4a04a08-2f21-4da3-a4e7-b2c79a78ccc2|d4f748e3-b20d-4982-9e99-4274b505d611",
-        "silk_over_copper|127875000|43475000|f4a04a08-2f21-4da3-a4e7-b2c79a78ccc2|f3d1d7c7-fc20-4d7a-9f8e-2569bea65974",
-        "silk_over_copper|127875000|50325000|f4a04a08-2f21-4da3-a4e7-b2c79a78ccc2|696fc689-c13d-4a9e-abe6-d97c1df0b026",
-        "silk_over_copper|127875000|50325000|f4a04a08-2f21-4da3-a4e7-b2c79a78ccc2|f5a2439b-06cb-41f4-a35c-c0e90d1afb13",
-        "silk_over_copper|127875000|59725000|f4a04a08-2f21-4da3-a4e7-b2c79a78ccc2|0ccea004-159c-4140-b5bd-f9753bf6d9f0",
-        "silk_over_copper|127875000|59725000|f4a04a08-2f21-4da3-a4e7-b2c79a78ccc2|1f52d044-35a1-4971-a033-158db0c09f89"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -118,7 +106,7 @@
         "min_clearance": 0.0,
         "min_copper_edge_clearance": 0.19999999999999998,
         "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.19999999999999998,
         "min_microvia_drill": 0.09999999999999999,
         "min_silk_clearance": 0.0,
@@ -138,9 +126,15 @@
         0.25,
         0.29337,
         0.3,
+        0.35,
         0.4,
         0.5,
+        0.52,
+        0.54,
+        0.56,
         0.6,
+        0.62,
+        0.65,
         0.7,
         0.8,
         0.875,
@@ -456,11 +450,40 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "Matrix",
+        "nets": [
+          "COL1",
+          "COL2",
+          "COL3",
+          "COL4",
+          "COL5",
+          "COL6",
+          "ROW1",
+          "ROW2",
+          "ROW3",
+          "ROW4",
+          "ROW5"
+        ],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6.0
+      },
+      {
+        "bus_width": 12.0,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
           "+5V",
           "+BATT",
-          "EXT_PWR",
           "GND",
           "VBAT",
           "VBUS",
@@ -469,9 +492,9 @@
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.4,
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "track_width": 0.35,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
         "wire_width": 6.0
       },
       {
@@ -485,10 +508,8 @@
         "microvia_drill": 0.1,
         "name": "USB",
         "nets": [
-          "DI+",
-          "DI-",
-          "DO+",
-          "DO-"
+          "D+",
+          "D-"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
