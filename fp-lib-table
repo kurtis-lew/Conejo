@@ -1,6 +1,6 @@
 (fp_lib_table
   (lib (name "Type-C")(type "KiCad")(uri "${KIPRJMOD}/submodules/Type-C.pretty")(options "")(descr ""))
-  (lib (name "Athena54")(type "KiCad")(uri "${KIPRJMOD}/submodules/Athena54.pretty")(options "")(descr ""))
+  (lib (name "Conejo")(type "KiCad")(uri "${KIPRJMOD}/submodules/Conejo.pretty")(options "")(descr ""))
   (lib (name "marbastlib-choc")(type "KiCad")(uri "${KIPRJMOD}/submodules/marbastlib/marbastlib-choc.pretty")(options "")(descr ""))
   (lib (name "marbastlib-mx")(type "KiCad")(uri "${KIPRJMOD}/submodules/marbastlib/marbastlib-mx.pretty")(options "")(descr ""))
   (lib (name "marbastlib-various")(type "KiCad")(uri "${KIPRJMOD}/submodules/marbastlib/marbastlib-various.pretty")(options "")(descr ""))

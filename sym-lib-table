@@ -3,5 +3,5 @@
   (lib (name "marbastlib-choc")(type "KiCad")(uri "${KIPRJMOD}/submodules/marbastlib/marbastlib-choc.kicad_sym")(options "")(descr ""))
   (lib (name "marbastlib-mx")(type "KiCad")(uri "${KIPRJMOD}/submodules/marbastlib/marbastlib-mx.kicad_sym")(options "")(descr ""))
   (lib (name "marbastlib-various")(type "KiCad")(uri "${KIPRJMOD}/submodules/marbastlib/marbastlib-various.kicad_sym")(options "")(descr ""))
-  (lib (name "Athena54")(type "KiCad")(uri "${KIPRJMOD}/submodules/Athena54.kicad_sym")(options "")(descr ""))
+  (lib (name "Conejo")(type "KiCad")(uri "${KIPRJMOD}/submodules/Conejo.kicad_sym")(options "")(descr ""))
 )
