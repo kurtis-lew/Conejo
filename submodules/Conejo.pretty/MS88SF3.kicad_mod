@@ -139,7 +139,7 @@
       )
     )
   )
-  (model "${KIPRJMOD}/submodules/Athena54.pretty/MS88SF3.step"
+  (model "${KIPRJMOD}/submodules/Conejo.pretty/MS88SF3.step"
     (offset (xyz -6.2 -9.2 0.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

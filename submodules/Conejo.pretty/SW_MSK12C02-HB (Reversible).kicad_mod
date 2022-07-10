@@ -115,19 +115,14 @@
   (pad "MP" smd roundrect (at -3.7 1.15 90) (size 0.7 1.1) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.15) (tstamp af43899e-0367-4382-9b66-b3dc4feae3ad))
   (pad "MP" smd roundrect (at -3.7 -1.15 90) (size 0.7 1.1) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.15) (tstamp dde822d8-2592-4cca-a915-a568cf56f416))
   (pad "MP" smd roundrect (at 3.7 1.15 90) (size 0.7 1.1) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.15) (tstamp f6a3112d-da25-4f5b-b487-f1affcfb54bd))
-  (model "${KIPRJMOD}/../marbastlib/3d/Switch_MSK12C02.step"
+  (model "${KIPRJMOD}/submodules/marbastlib/3d/MSK12C02.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
   )
-  (model "${KIPRJMOD}/marbastlib/3d/Switch_MSK12C02.step"
-    (offset (xyz 0 0 0))
+  (model "${KIPRJMOD}/submodules/marbastlib/3d/MSK12C02.step"
+    (opacity 0.6000)    (offset (xyz 0 0 -1.7))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
-  (model "${KIPRJMOD}/../3d/Switch_MSK12C02.step"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 0 180 0))
   )
 )
