@@ -1917,7 +1917,7 @@
       (reference "C10") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/3c8e1031-c6c2-4b91-9cfd-82bb3688717a"
-      (reference "C11") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C11") (unit 1) (value "4.7uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/1803c616-4a91-454a-85d9-d17a70de9e60/3825ef5a-9c20-4da1-b237-0d7cce88677d"
       (reference "D1") (unit 1) (value "CHG") (footprint "Conejo:LED_1206_3216Metric (Reversible)")
@@ -2046,7 +2046,7 @@
       (reference "J4") (unit 1) (value "RGB") (footprint "Conejo:LED Header")
     )
     (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/fb1caad6-ed33-4df5-9d7f-ee4e8d1bc5cf"
-      (reference "L1") (unit 1) (value "NC") (footprint "Inductor_SMD:L_0402_1005Metric")
+      (reference "L1") (unit 1) (value "10uH") (footprint "Inductor_SMD:L_0603_1608Metric")
     )
     (path "/1803c616-4a91-454a-85d9-d17a70de9e60/0356fbd0-fa9f-4765-ab71-823eb62db156"
       (reference "Q1") (unit 1) (value "2N7002") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -2196,10 +2196,10 @@
       (reference "U3") (unit 1) (value "SRV05-4") (footprint "marbastlib-various:SOT-23-6-routable")
     )
     (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/ba32139f-00a8-48af-848c-819ca1f88fa7"
-      (reference "U4") (unit 1) (value "MS88SF3") (footprint "Conejo:MS88SF3")
+      (reference "U4") (unit 1) (value "MS88SF3") (footprint "Conejo:MS88SF3_PeteJohanson")
     )
     (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/8defd7fa-4f3e-463e-80fe-a61c4cda154a"
-      (reference "U4") (unit 2) (value "MS88SF3") (footprint "Conejo:MS88SF3")
+      (reference "U4") (unit 2) (value "MS88SF3") (footprint "Conejo:MS88SF3_PeteJohanson")
     )
   )
 )
