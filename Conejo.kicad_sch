@@ -2193,10 +2193,10 @@
       (reference "U3") (unit 1) (value "SRV05-4") (footprint "marbastlib-various:SOT-23-6-routable")
     )
     (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/ba32139f-00a8-48af-848c-819ca1f88fa7"
-      (reference "U4") (unit 1) (value "MS88SF3") (footprint "Conejo:MS88SF3_PeteJohanson")
+      (reference "U4") (unit 1) (value "MS88SF3") (footprint "Conejo:MS88SF3_V2")
     )
     (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/8defd7fa-4f3e-463e-80fe-a61c4cda154a"
-      (reference "U4") (unit 2) (value "MS88SF3") (footprint "Conejo:MS88SF3_PeteJohanson")
+      (reference "U4") (unit 2) (value "MS88SF3") (footprint "Conejo:MS88SF3_V2")
     )
   )
 )
