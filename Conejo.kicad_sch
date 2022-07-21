@@ -2064,7 +2064,7 @@
       (reference "R3") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/1803c616-4a91-454a-85d9-d17a70de9e60/35bb42a9-4cdb-41c9-8352-f09b653c9996"
-      (reference "R4") (unit 1) (value "100") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R4") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/1803c616-4a91-454a-85d9-d17a70de9e60/ed9eb0a3-27ee-44ca-a314-2dfcc30de9ff"
       (reference "R5") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")

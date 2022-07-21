@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(6.0.4)"
     },
-    "CreationDate": "2022-07-16T20:51:00-07:00"
+    "CreationDate": "2022-07-20T20:02:17-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -18,7 +18,7 @@
       "Y": 112.6412
     },
     "LayerNumber": 4,
-    "BoardThickness": 1.5461,
+    "BoardThickness": 1.5632,
     "Finish": "None",
     "ImpedanceControlled": true
   },
@@ -27,18 +27,18 @@
       "Layers": "Outer",
       "PadToPad": 0.0,
       "PadToTrack": 0.0,
-      "TrackToTrack": 0.127,
-      "MinLineWidth": 0.2,
-      "TrackToRegion": 0.2,
-      "RegionToRegion": 0.2
+      "TrackToTrack": 0.1524,
+      "MinLineWidth": 0.141,
+      "TrackToRegion": 0.1524,
+      "RegionToRegion": 0.1524
     },
     {
       "Layers": "Inner",
       "PadToPad": 0.0,
       "PadToTrack": 0.0,
-      "TrackToTrack": 0.127,
-      "TrackToRegion": 0.2,
-      "RegionToRegion": 0.2
+      "TrackToTrack": 0.1524,
+      "TrackToRegion": 0.1524,
+      "RegionToRegion": 0.1524
     }
   ],
   "FilesAttributes": [
@@ -119,9 +119,9 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1803,
-      "Material": "JLC7628",
-      "DielectricConstant": "4.6",
+      "Thickness": 0.0889,
+      "Material": "JLC3313",
+      "DielectricConstant": "4.05",
       "LossTangent": "0.02",
       "Name": "F.Cu/In1.Cu",
       "Notes": "Type: dielectric layer 1 (from F.Cu to In1.Cu)"
@@ -133,9 +133,9 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 1.065,
+      "Thickness": 1.265,
       "Material": "FR4",
-      "DielectricConstant": "4.5",
+      "DielectricConstant": "4.6",
       "LossTangent": "0.02",
       "Name": "In1.Cu/In2.Cu",
       "Notes": "Type: dielectric layer 2 (from In1.Cu to In2.Cu)"
@@ -147,9 +147,9 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.1803,
-      "Material": "FR4",
-      "DielectricConstant": "4.5",
+      "Thickness": 0.0889,
+      "Material": "JLC3313",
+      "DielectricConstant": "4.05",
       "LossTangent": "0.02",
       "Name": "In2.Cu/B.Cu",
       "Notes": "Type: dielectric layer 3 (from In2.Cu to B.Cu)"
