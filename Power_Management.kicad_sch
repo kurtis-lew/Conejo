@@ -1617,7 +1617,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 263a0999-f2e0-410a-b264-fedd2638797a)
     (property "Reference" "SW1" (id 0) (at 47.625 119.1092 0))
-    (property "Value" "POWER" (id 1) (at 47.625 121.6461 0))
+    (property "Value" "PWR" (id 1) (at 47.625 121.6461 0))
     (property "Footprint" "Conejo:SW_MSK12C02-HB (Reversible)" (id 2) (at 47.625 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )

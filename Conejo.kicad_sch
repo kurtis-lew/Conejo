@@ -1886,6 +1886,9 @@
     (path "/0b39595e-c164-40ee-b714-5b1f9f72ce37/1f530cb5-541c-4e91-802b-b8d870591172"
       (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/286c83a5-b3b1-4089-bac3-cdd5fa65bbb6"
+      (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
+    )
     (path "/1803c616-4a91-454a-85d9-d17a70de9e60/974e900e-dcaa-4f16-98fb-dfbdeb64daa6"
       (reference "C1") (unit 1) (value "4u7F") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -2097,7 +2100,7 @@
       (reference "R14") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/1803c616-4a91-454a-85d9-d17a70de9e60/263a0999-f2e0-410a-b264-fedd2638797a"
-      (reference "SW1") (unit 1) (value "POWER") (footprint "Conejo:SW_MSK12C02-HB (Reversible)")
+      (reference "SW1") (unit 1) (value "PWR") (footprint "Conejo:SW_MSK12C02-HB (Reversible)")
     )
     (path "/122ac6b9-652b-4473-a02b-83c4af423491/bda483af-37b3-440d-b1a7-9004c33927ec"
       (reference "SW2") (unit 1) (value "MX Hotswap") (footprint "Conejo:MXOnly-1U-Hotswap (Reversible)")
@@ -2182,6 +2185,12 @@
     )
     (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/eb000af3-464f-4ce3-bee0-a71c16bc3757"
       (reference "SW29") (unit 1) (value "RESET") (footprint "Conejo:Panasonic_EVQPUL_EVQPUC (Reversible)")
+    )
+    (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/21445f35-cdf9-45ed-b042-42162bce0eb5"
+      (reference "TP1") (unit 1) (value "GND") (footprint "TestPoint:TestPoint_THTPad_1.0x1.0mm_Drill0.5mm")
+    )
+    (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/0daecdde-c7bb-438a-af7a-81cb9557ce6b"
+      (reference "TP2") (unit 1) (value "VDDH") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/1803c616-4a91-454a-85d9-d17a70de9e60/960aabdf-0d7b-4ea6-a233-e992bccd4c56"
       (reference "U1") (unit 1) (value "BQ24075RGT") (footprint "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm")

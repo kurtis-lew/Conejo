@@ -884,6 +884,8 @@
   )
 
   (no_connect (at 41.91 60.325) (uuid 0d66ca16-ff66-4319-b17b-58327e08341a))
+  (no_connect (at 117.475 43.18) (uuid 0f72be0f-c218-44d8-891e-9c5de376825c))
+  (no_connect (at 92.075 48.26) (uuid 0f72be0f-c218-44d8-891e-9c5de376825c))
   (no_connect (at 41.91 57.785) (uuid cf225512-cb2b-412c-9802-2e9618f36538))
 
   (polyline (pts (xy 127 25.4) (xy 127 66.675))
