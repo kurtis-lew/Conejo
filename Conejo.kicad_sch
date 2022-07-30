@@ -1702,10 +1702,10 @@
     (property "Reference" "G1" (id 0) (at 114.3 64.3088 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "LOGO" (id 1) (at 114.3 69.0412 0)
+    (property "Value" "" (id 1) (at 114.3 69.0412 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Conejo:Powered_By_ZMK (Large)" (id 2) (at 114.3 66.675 0)
+    (property "Footprint" "" (id 2) (at 114.3 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 114.3 66.675 0)
@@ -1719,10 +1719,10 @@
     (property "Reference" "G2" (id 0) (at 114.3 64.3088 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "LOGO" (id 1) (at 114.3 69.0412 0)
+    (property "Value" "" (id 1) (at 114.3 69.0412 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Footprint" "Conejo:Powered_By_ZMK (Large)" (id 2) (at 114.3 66.675 0)
+    (property "Footprint" "" (id 2) (at 114.3 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "" (id 3) (at 114.3 66.675 0)
@@ -1889,6 +1889,9 @@
     (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/286c83a5-b3b1-4089-bac3-cdd5fa65bbb6"
       (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
     )
+    (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/9b77a18b-20d4-480c-977d-fc3e8cadb349"
+      (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
+    )
     (path "/1803c616-4a91-454a-85d9-d17a70de9e60/974e900e-dcaa-4f16-98fb-dfbdeb64daa6"
       (reference "C1") (unit 1) (value "4u7F") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -2018,20 +2021,20 @@
     (path "/484ebbc3-d124-4df8-ab1e-340be71baf1c"
       (reference "G2") (unit 1) (value "LOGO") (footprint "Conejo:Powered_By_ZMK (Large)")
     )
-    (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/79c89361-cab9-44b2-ac22-93b8e96586d9"
-      (reference "H1") (unit 1) (value "4.3mm") (footprint "Conejo:MountingHole_4.3mm")
+    (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/ea229370-61c1-45bb-82ca-09071269492b"
+      (reference "H1") (unit 1) (value "M2") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
     )
-    (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/403df5c3-9296-4e57-9eb2-73ccbcd04e94"
-      (reference "H2") (unit 1) (value "4.3mm") (footprint "Conejo:MountingHole_4.3mm")
+    (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/986504f8-8bf7-45e2-94f8-6a2b63ce455a"
+      (reference "H2") (unit 1) (value "M2") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
     )
-    (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/8c76b6f5-ee3a-4ad1-bdeb-0ae5ad222b2c"
-      (reference "H3") (unit 1) (value "4.3mm") (footprint "Conejo:MountingHole_4.3mm")
+    (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/220c906f-f072-4494-87c3-65bf7e6fbe2c"
+      (reference "H3") (unit 1) (value "M2") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
     )
-    (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/8ac833de-53d8-418b-a186-aa3f0694de1b"
-      (reference "H4") (unit 1) (value "4.3mm") (footprint "Conejo:MountingHole_4.3mm")
+    (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/d755d098-20d7-4def-b888-0e2357dff08f"
+      (reference "H4") (unit 1) (value "M2") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
     )
-    (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/0b485980-164a-420f-aa20-9bba2db9ae3b"
-      (reference "H5") (unit 1) (value "4.3mm") (footprint "Conejo:MountingHole_4.3mm")
+    (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/857ced81-49b6-4a71-9382-bb4dbdef2ae5"
+      (reference "H5") (unit 1) (value "M2") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
     )
     (path "/1803c616-4a91-454a-85d9-d17a70de9e60/b6add576-f6a8-498e-abea-3e9e2e1a2be9"
       (reference "J1") (unit 1) (value "BATT") (footprint "Conejo:Battery Header")
