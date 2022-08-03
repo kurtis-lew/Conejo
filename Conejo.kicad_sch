@@ -2022,19 +2022,19 @@
       (reference "G2") (unit 1) (value "LOGO") (footprint "Conejo:Powered_By_ZMK (Large)")
     )
     (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/ea229370-61c1-45bb-82ca-09071269492b"
-      (reference "H1") (unit 1) (value "M2") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
+      (reference "H1") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
     )
     (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/986504f8-8bf7-45e2-94f8-6a2b63ce455a"
-      (reference "H2") (unit 1) (value "M2") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
+      (reference "H2") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
     )
     (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/220c906f-f072-4494-87c3-65bf7e6fbe2c"
-      (reference "H3") (unit 1) (value "M2") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
+      (reference "H3") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
     )
     (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/d755d098-20d7-4def-b888-0e2357dff08f"
-      (reference "H4") (unit 1) (value "M2") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
+      (reference "H4") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
     )
     (path "/a6c855a7-3fa9-426b-8144-57b4803ad800/857ced81-49b6-4a71-9382-bb4dbdef2ae5"
-      (reference "H5") (unit 1) (value "M2") (footprint "MountingHole:MountingHole_2.2mm_M2_Pad")
+      (reference "H5") (unit 1) (value "M3") (footprint "MountingHole:MountingHole_3.2mm_M3_Pad_Via")
     )
     (path "/1803c616-4a91-454a-85d9-d17a70de9e60/b6add576-f6a8-498e-abea-3e9e2e1a2be9"
       (reference "J1") (unit 1) (value "BATT") (footprint "Conejo:Battery Header")
