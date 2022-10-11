@@ -1,5 +1,5 @@
 # Conejo
-\<Product Image>
+![Product Image](docs/images/product_image.jpg)
 
 ## Overview
 
